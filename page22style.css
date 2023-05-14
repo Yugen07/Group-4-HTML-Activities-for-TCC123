@@ -1,0 +1,167 @@
+li{
+	border:5px solid black;
+  display:inline-block;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fa{
+	padding:57px;
+	padding-bottom: 50px;
+	padding-top:50px;
+  align-content: center;
+  align-items: center;
+  border-spacing: 20em 25em
+}
+a{
+	display: block;
+	display:inline-block;
+	align-content: center;
+	align-items: center;
+}
+
+
+
+p{
+  
+  font-family: cursive;
+  border: solid 5px black;
+  font-size:bold;
+  background-color:lightpink;
+  text-decoration: aqua;
+  padding: 50px 55px;
+  font-size: 64px;
+  
+  
+}
+
+h1{
+  background-color: lightpink;
+  text-align: center;
+  font-family: cursive;
+  border:solid 5px gray;
+  font-size: 80px;
+  padding : 100px 90px;
+}
+
+
+p1{
+  font-family: arial;
+  font-size: 60px;
+  color:red;
+}
+
+p2{
+  font-family: arial;
+  color:violet;
+  font-size:60px;
+ 
+}
+p3{
+  
+  font-size: 60px;
+  font-family: arial;
+  
+}
+h4{
+  
+  text-align: left ;
+  font-size: 32px;
+  color:white;
+  background: black
+}
+
+p5{
+  
+  
+text-align: right;
+align-content: center;
+font-family: cursive;
+font-size: 64px;
+color:white;
+}
+
+
+
+@keyframes color {
+  0%   { background: greenyellow; }
+  20%  { background: skyblue; }
+  40%  { background: aliceblue; }
+  60%  { background: crimson; }
+  80%  { background: indianred; }
+  100% { background: gold; }
+}
+
+
+body {
+  font-size: 24px;
+  align-content: center;
+  animation:color 10s infinite linear;
+  border:50px solid black;
+  padding: 100px 100px;
+  min-height: 8em;
+  resize: both;
+  background: white;
+  border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+}
+	
+
+h2{
+  
+  border:solid 5px white;
+  padding:10px;
+  color:white ;
+  background: black;
+  text-align: center;
+  font-family: Times New Roman;
+  font-style: italic;
+  
+} 
+    
+    
+  h5 {
+    
+    border:solid 5px black;
+    padding:10px;
+    color:white;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 32px;
+    font-family:cursive;
+    font-style: bold;
+  }
+
+h3{
+  text-align:left;
+  font-size: 50px;
+  border:solid 5px black;
+  background-color :black;
+  color:white;
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  
+  
+}
+
+h4{
+  
+  text-align: left;
+  font-size: 38px;
+  font-family: cursive;
+  font-style: bold;
+}
+
+.name {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border: solid 5px yellow;
+}
+
+.rightside {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
